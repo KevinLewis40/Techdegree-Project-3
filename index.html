@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>The Code Review</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
     rel="stylesheet">
   </head>
   <body>
-    <haeder>
-      <h1>THE CODE REVEIW</h1>
-      <h1>Signup for our newsletter</h1>
+    <header class="main-header" id="top-boader">
+      <h1 class="title">THE CODE REVEIW</h1>
+      <h2 class="intro">Signup for our newsletter</h2>
         <p>Get the latest news on how your code is doing right in your inbox</p>
     </header>
 
@@ -60,7 +60,7 @@
 
     <legend class="newsletter">Newsletter</ledgend>
 
-      <label class="new">Select the newsletters you would like to recieve</label><br>
+      <label class="news">Select the newsletters you would like to recieve</label><br>
 
       <input type="checkbox" id="html" name="html" value="html" checked/>
       <label for="html" class="checkbox">HTML News</label><br>
@@ -71,7 +71,7 @@
       <input type="checkbox" id="javascript" name="user_javascript" value="javascript" checked/>
       <label for="javascript" class="checkbox">Javascrpit News</label><br>
 
-      <label class="new">Newsletter format</label><br>
+      <label class="news">Newsletter format</label><br>
 
       <input type="radio" id="code" name="user_letter" value="code" checked/>
       <label for="code" class="radio">HTML</label><br>
@@ -79,7 +79,7 @@
       <input type="radio" id="plain" name="user_letter" vaule="plain" checked/>
       <label for="plain" class="radio">Plain text</label><br>
 
-      <label class="new">Other topics you'd likle to hear about</label>
+      <label class="news">Other topics you'd likle to hear about</label>
       <textarea id="topics" name="user_topics" palceholder="message"></textarea><br>
 
       <button type="submit">Sign Up</button>
