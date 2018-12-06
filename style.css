@@ -36,7 +36,7 @@ h2{
 p{
   font-family: 'Roboto',sans-serif;
   color:#000;
-  font-weight: 40;
+  font-weight: 300;
   margin: 1em;
   font-size: 1em;
   padding-bottom: .5em;
@@ -53,7 +53,7 @@ fieldset{
 }
 
 :focus{
-  outline: .2em soild #000 ;
+  outline: .2em #000 ;
   transition: all 2s ease;
 }
 
